@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>簡易掲示板</title>
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="./com.js"></script>
+<link rel="stylesheet" href="main.css" type="text/css">
+
+</head>
+<body>
+<form name="form1" action="" method="post">
+<table name="input_table" border="1" cellspacing="0">
+<caption><h1>【簡易掲示板】</h1></caption>
+<tr>
+<td >
+    <p>名前</p>
+</td>
+<td>
+<input type="text" name="user_name" class="01" size="40" value="">
+</td>
+</tr>
+<tr>
+<td>
+    <p>件名</p>
+</td>
+<td>
+<input type="text" name="title" class="01"  size="40" value="">
+</td>
+</tr>
+<tr>
+<td>
+    <p>本文</p>
+</td>
+<td>
+<textarea name="content" class="01" rows="20" cols="50"></textarea>
+</td>
+</tr>
+</table>
+<br />
+<input name="send_btn" class="send_btn" onclick="" value="投 稿">
+</form>
+<br />
+<div name="reset" class="reset">
+<div name="here" class="here"></div>
+</div>
+</body>
+</html>
